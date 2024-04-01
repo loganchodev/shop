@@ -1,8 +1,8 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver # JDBC ???? ????
-    url: jdbc:mysql://localhost:3306/webdb # ?????? URL
-    username: dbuser # ?????? ??? ??
-    password: 12345 # ?????? ????
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/webdb
+    username: dbuser
+    password: 12345
   jpa:
-    database-platform: org.hibernate.dialect.MySQL5Dialect # Hibernate? ??? SQL Dialect
+    database-platform: org.hibernate.dialect.MySQL5Dialect
